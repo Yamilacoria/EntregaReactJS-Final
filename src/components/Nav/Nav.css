@@ -1,0 +1,61 @@
+ul {
+  display:flex;
+  justify-content:center;
+  list-style-type:none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  background-color: #207681;
+}
+
+ul li {
+  float:left;
+}
+/*
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+*/
+
+nav ul li a {
+  display: inline-flex;
+  color: rgb(243, 244, 248);
+  text-decoration: none;
+  font-weight: bold;
+
+  text-align: center;
+  padding: 14px 16px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  text-decoration: none;
+  /**color: #111111;**/
+  background-color: #12756d;
+  color:#bb9c59;
+}
+nav ul .opcion-carrito:hover{
+  background-color: #7a1818;
+}
+.in-cart{
+  background-color: rgb(207, 5, 5);
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: rgb(250, 242, 242);
+  border-radius: 50%;
+  padding: 0.25em 0.25em;
+  display: inline-block;
+  min-width: 25x; /*para q sea redondo*/
+  text-align: center;
+  /*margin-left: 0.25rem;
+  margin-right: 0.35rem;*/
+  margin-left: 0.25rem;
+  justify-content: center;
+  text-align: center;
+}
+.cart-container:hover{
+ background-color: #3295a7;
+}
